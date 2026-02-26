@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <em>🎬 Demo GIF coming soon</em>
+  <img src="https://github.com/477-Studio/claude-gym/releases/download/v0.1.0/ClaudeGym_compressed.gif" alt="Claude Gym demo" width="640">
 </p>
 
 **You ship code. Your body ships pain.** Stand up. Stretch your back. Shake out your legs. It takes 30 seconds and your body will stop screaming at you by 6pm.
