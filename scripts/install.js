@@ -8,7 +8,7 @@ const zlib = require('zlib');
 const tar = require('tar');
 
 const REPO = '477-Studio/claude-gym';
-const BINARY_NAME = 'cgym';
+const BINARY_NAME = 'cgym-bin';
 
 function getPlatformInfo() {
   const platform = process.platform;
@@ -169,7 +169,7 @@ async function main() {
       await extractZip(archivePath, tmpDir);
       fs.renameSync(
         path.join(tmpDir, `cgym-windows-amd64.exe`),
-        path.join(binDir, 'cgym.exe')
+        path.join(binDir, 'cgym-bin.exe')
       );
     } else {
       await extractTarGz(archivePath, tmpDir);

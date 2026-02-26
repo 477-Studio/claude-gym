@@ -1,6 +1,6 @@
 {
   "name": "claude-gym",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Exercise reminder companion for Claude Code users. Prompts you to move during natural pauses in your coding sessions.",
   "bin": {
     "cgym": "bin/cgym",

@@ -1,0 +1,19 @@
+#!/usr/bin/env node
+
+const { execFileSync } = require('child_process');
+const path = require('path');
+const fs = require('fs');
+
+const ext = process.platform === 'win32' ? '.exe' : '';
+const binary = path.join(__dirname, `cgym-bin${ext}`);
+
+if (!fs.existsSync(binary)) {
+  console.error('Claude Gym binary not found. Try reinstalling: npm install -g claude-gym');
+  process.exit(1);
+}
+
+try {
+  execFileSync(binary, process.argv.slice(2), { stdio: 'inherit' });
+} catch (e) {
+  process.exit(e.status || 1);
+}
