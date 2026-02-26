@@ -1,0 +1,51 @@
+{
+  "name": "claude-gym",
+  "version": "0.1.0",
+  "description": "Exercise reminder companion for Claude Code users. Prompts you to move during natural pauses in your coding sessions.",
+  "bin": {
+    "cgym": "bin/cgym",
+    "claude-gym": "bin/cgym"
+  },
+  "scripts": {
+    "postinstall": "node scripts/install.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/477-Studio/claude-gym.git"
+  },
+  "keywords": [
+    "claude",
+    "claude-code",
+    "animation",
+    "exercise",
+    "pixel-art",
+    "cli"
+  ],
+  "author": "477-Studio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/477-Studio/claude-gym/issues"
+  },
+  "homepage": "https://github.com/477-Studio/claude-gym#readme",
+  "files": [
+    "bin",
+    "scripts",
+    "assets",
+    "config.json"
+  ],
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [
+    "x64",
+    "arm64"
+  ],
+  "engines": {
+    "node": ">=16"
+  },
+  "dependencies": {
+    "tar": "^7.0.0"
+  }
+}

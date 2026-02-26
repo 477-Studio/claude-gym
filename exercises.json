@@ -1,0 +1,16 @@
+[
+  {"name": "Chair Dips", "anim_row": 3, "reps": "10 reps"},
+  {"name": "Arm Circles", "anim_row": 4, "reps": "15 forward + 15 backward"},
+  {"name": "Knee Raises", "anim_row": 6, "reps": "10 reps each leg"},
+  {"name": "Spinal Twist", "anim_row": 7, "reps": "8 reps each side"},
+  {"name": "Glute Squeeze", "anim_row": 8, "reps": "8 reps (hold 3s each)"},
+  {"name": "Shoulder Rolls", "anim_row": 9, "reps": "15 forward + 15 backward"},
+  {"name": "Leg Extensions", "anim_row": 10, "reps": "10 reps each leg"},
+  {"name": "Neck Stretch", "anim_row": 11, "reps": "Hold 15s each side"},
+  {"name": "Desk Push-Ups", "anim_row": 12, "reps": "10 reps"},
+  {"name": "Squats", "anim_row": 13, "reps": "12 reps"},
+  {"name": "Calf Raises", "anim_row": 14, "reps": "15 reps"},
+  {"name": "Wall Sit", "anim_row": 15, "reps": "Hold 40s"},
+  {"name": "Torso Rotation", "anim_row": 16, "reps": "8 reps each side"},
+  {"name": "Reverse Lunges", "anim_row": 17, "reps": "8 reps each leg"}
+]
