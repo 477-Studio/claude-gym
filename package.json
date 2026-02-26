@@ -30,8 +30,9 @@
   "files": [
     "bin",
     "scripts",
-    "assets",
-    "config.json"
+    "assets/developer/exercise_spritesheet.png",
+    "config.json",
+    "exercises.json"
   ],
   "os": [
     "darwin",

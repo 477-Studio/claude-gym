@@ -23,3 +23,15 @@ cmd/
 # Development
 .claude/
 *.jsonl
+
+# Generated sprite previews (not needed at runtime)
+assets/developer/*_preview.png
+assets/developer/exercise_spritesheet_preview.png
+
+# README assets (referenced via URLs, not local paths)
+assets/class_select.png
+assets/claude-gym2.png
+
+# Docs
+CLAUDE.md
+CONTRIBUTING.md
